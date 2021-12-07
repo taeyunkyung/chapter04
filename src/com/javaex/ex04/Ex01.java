@@ -11,7 +11,9 @@ public class Ex01 {
 		Point p02 = new Point(7, 17);
 		Point p03 = new Point(5, 15);
 
+		// 섞어쓰기 한 이유
 		List<Point> pList = new ArrayList<Point>();
+		// List<Point> pList = new LinkedList<Point>(); -> 로직 바뀜
 		pList.add(p01);
 		pList.add(p02);
 		pList.add(p03);
